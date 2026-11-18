@@ -16,3 +16,7 @@ Open `index.html` in a modern browser. The page uses Google Fonts when internet 
 ## Free hosting option
 
 This static site can be deployed on Netlify's free tier. Netlify provides a `netlify.app` subdomain; the exact address is selected when creating the site and may already be taken. A custom domain such as `.com` is generally registered and renewed separately.
+
+## Work history
+
+See [CHANGELOG.md](CHANGELOG.md) for the step-by-step work log and GitHub publishing instructions.
