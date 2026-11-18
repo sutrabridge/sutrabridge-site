@@ -19,9 +19,9 @@ Open `index.html` in a modern browser. Google Fonts load when an internet connec
 - Concept demos are identified as concepts. Sample dashboard data is illustrative, not a business result.
 - The contact links use the owner-provided Gmail address and phone number. Confirm they can receive enquiries.
 
-## Disclaimer and copyright
+## Portfolio note and copyright
 
-The footer includes the website disclaimer, including the illustrative nature of concept work, AI review, sensitive-data guidance, and third-party trademark independence. Copyright is shown as `© [current year] SutraBridge Technologies. All rights reserved.` Confirm the brand and any relevant rights before commercial use.
+The footer uses a short, client-friendly note explaining that portfolio examples are concepts rather than client projects and that each project's scope, timing, and deliverables are agreed before work begins. The separate copyright line displays the current year.
 
 ## Work independently in Antigravity and Codex
 

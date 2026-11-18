@@ -19,6 +19,11 @@ Changes are recorded here in order and in Git history.
 5. Added a footer disclaimer covering concepts, AI limitations, project scope, sensitive information, advice boundaries, and independent third-party trademark references.
 6. Added a dynamic-year copyright notice and clarified site setup, deployment, and parallel workspace guidance in this README.
 
+## 2026-11-18 — Friendlier portfolio note
+
+1. Replaced the long, formal website disclaimer with a short note that explains concept examples and how project scope is agreed.
+2. Kept the copyright notice as a separate footer line and renamed the note link to “About these examples.”
+
 ## Parallel workspace setup
 
 The user's Antigravity workspace remains in `outputs/sutrabridge-site` on `main`. Codex's isolated working copy is `work/codex-publish` on `codex/site-ux-disclosures`. Changes can be reviewed and merged when ready; GitHub Pages continues to publish from `main`.
