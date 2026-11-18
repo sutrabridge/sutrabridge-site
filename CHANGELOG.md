@@ -1,23 +1,24 @@
 # SutraBridge Technologies website change log
 
-This file records the work in order so the site can be maintained and reviewed through Git history.
+Changes are recorded here in order and in Git history.
 
-## 2026-11-18 — Site setup and first improvements
+## 2026-11-18 — Initial portfolio and visual direction
 
-1. Created the responsive SutraBridge Technologies portfolio page with services, industries, concept work, approach, and enquiry sections.
-2. Added the owner-provided Gmail and phone number to the enquiry section, including email, phone, and WhatsApp links.
-3. Added the warm saffron-yellow, orange, maroon, and green color palette across the page.
-4. Added a spring-like pointer interaction to the hero illustration. The connected elements follow the pointer with different movement strengths and settle back when it leaves.
-5. Disabled the pointer movement for touch-only and reduced-motion environments.
-6. Initialized Git history in this folder. The initial commit records the portfolio and contact setup; the next commit records the visual and interaction update.
+1. Created the responsive one-page portfolio with services, industries, concept demonstrations, approach, and contact sections.
+2. Added the owner-provided email and phone links for email, calls, and WhatsApp.
+3. Added the requested saffron-yellow, orange, maroon, and green palette and a spring-like pointer response in the hero illustration, with reduced-motion and touch-device handling.
+4. Recorded the work in Git and uploaded it to the public repository `sutrabridge/sutrabridge-site`.
+5. Enabled GitHub Pages from the root of the `main` branch. The live site is https://sutrabridge.github.io/sutrabridge-site/.
 
-## GitHub publishing steps
+## 2026-11-18 — UX, accessibility, and disclosure update
 
-The project currently has local Git history. To publish it to GitHub:
+1. Rewrote the opening copy to lead with understandable, people-centred web and product experiences.
+2. Clarified service descriptions around UX, e-commerce, AI assistance, human review, operations, and Tally ERP workflows.
+3. Added a skip link, stronger keyboard focus, larger reading text, a mobile menu controlled by `aria-expanded`, Escape-to-close support, and more readable mobile service navigation.
+4. Identified all showcase pieces as illustrative concept demos and replaced the dashboard's result-like percentage with clearly marked sample data.
+5. Added a footer disclaimer covering concepts, AI limitations, project scope, sensitive information, advice boundaries, and independent third-party trademark references.
+6. Added a dynamic-year copyright notice and clarified site setup, deployment, and parallel workspace guidance in this README.
 
-1. Sign in to GitHub and create a **private** repository named `sutrabridge-site` (leave README initialization unchecked because this folder already has one).
-2. Add that repository as the `origin` remote for this folder.
-3. Push the `main` branch to GitHub.
-4. For a public website, connect the repository to a static hosting provider and choose its free subdomain; a custom domain is separate.
+## Parallel workspace setup
 
-The GitHub CLI is not installed in this environment, and no GitHub remote is configured yet, so the local history has not been uploaded.
+The user's Antigravity workspace remains in `outputs/sutrabridge-site` on `main`. Codex's isolated working copy is `work/codex-publish` on `codex/site-ux-disclosures`. Changes can be reviewed and merged when ready; GitHub Pages continues to publish from `main`.

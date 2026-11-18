@@ -1,22 +1,30 @@
-# SutraBridge Technologies website
+# SutraBridge Technologies
 
-A responsive one-page agency website concept for SutraBridge Technologies.
+Responsive portfolio site for SutraBridge Technologies, focused on accessible web design and development, e-commerce, practical AI, business operations, and industry-specific digital tools.
+
+## Live site
+
+https://sutrabridge.github.io/sutrabridge-site/
+
+The public source repository is https://github.com/sutrabridge/sutrabridge-site. GitHub Pages publishes the root of the `main` branch.
 
 ## Preview locally
 
-Open `index.html` in a modern browser. The page uses Google Fonts when internet access is available and falls back to system sans-serif fonts otherwise.
+Open `index.html` in a modern browser. Google Fonts load when an internet connection is available; system sans-serif fonts are used as a fallback.
 
-## Before publishing
+## UX and accessibility notes
 
-- The contact section uses `sutrabridge@gmail.com` and the phone number supplied by the owner. Confirm both can receive enquiries before publishing.
-- The portfolio cards are concept projects, not completed client work.
-- Confirm the SutraBridge name, trademark, and domain are available before using them commercially.
-- The email and phone links open visitor email or phone apps. WhatsApp links use the supplied Indian number.
+- Content starts with customer and team needs, then explains services in plain language.
+- The page includes a skip link, keyboard-visible focus, labelled navigation, an Escape-to-close mobile menu, responsive layouts, and reduced-motion handling.
+- Concept demos are identified as concepts. Sample dashboard data is illustrative, not a business result.
+- The contact links use the owner-provided Gmail address and phone number. Confirm they can receive enquiries.
 
-## Free hosting option
+## Disclaimer and copyright
 
-This static site can be deployed on Netlify's free tier. Netlify provides a `netlify.app` subdomain; the exact address is selected when creating the site and may already be taken. A custom domain such as `.com` is generally registered and renewed separately.
+The footer includes the website disclaimer, including the illustrative nature of concept work, AI review, sensitive-data guidance, and third-party trademark independence. Copyright is shown as `© [current year] SutraBridge Technologies. All rights reserved.` Confirm the brand and any relevant rights before commercial use.
 
-## Work history
+## Work independently in Antigravity and Codex
 
-See [CHANGELOG.md](CHANGELOG.md) for the step-by-step work log and GitHub publishing instructions.
+The Antigravity workspace stays in `outputs/sutrabridge-site` on `main`. Codex works in the separate `work/codex-publish` Git worktree on `codex/site-ux-disclosures`. Each workspace has its own files and branch, so edits do not overwrite each other. Review and merge branch changes before publishing them to `main`; GitHub Pages deploys from `main`.
+
+See [CHANGELOG.md](CHANGELOG.md) for the work history.
